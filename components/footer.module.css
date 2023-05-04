@@ -1,0 +1,39 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  text-decoration: none;
+  color: #FFDB5B;
+  padding-bottom: 0.25rem;
+  z-index: 2;
+}
+
+.navItems {
+  margin-bottom: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.navItem {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.myLink {
+  color: #CC171A;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 0.25rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+.myLink:active {
+  color: #FFDB5B;
+}
+
+.myLink:hover {
+  color: #FFDB5B;
+}

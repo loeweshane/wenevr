@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "description": "An example project for NextAuth.js with Next.js",
+  "repository": "https://github.com/nextauthjs/next-auth-example.git",
+  "bugs": {
+    "url": "https://github.com/nextauthjs/next-auth/issues"
+  },
+  "homepage": "https://next-auth-example.vercel.app",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Iain Collins <me@iaincollins.com>",
+  "contributors": [
+    "Balázs Orbán <info@balazsorban.com>",
+    "Nico Domino <yo@ndo.dev>",
+    "Lluis Agusti <hi@llu.lu>"
+  ],
+  "dependencies": {
+    "@types/react-beautiful-dnd": "^13.1.4",
+    "bootstrap": "^5.2.3",
+    "chart.js": "^4.2.1",
+    "next": "^13.2.3",
+    "next-auth": "^4.20.1",
+    "nodemailer": "^6",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-chartjs-2": "^5.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "^5.0.1",
+    "reactflow": "^11.7.0",
+    "styled-components": "^5.3.8",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17",
+    "@types/react": "^18.0.15",
+    "typescript": "^4"
+  }
+}

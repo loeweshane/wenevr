@@ -1,0 +1,139 @@
+/* Set min-height to avoid page reflow while session loading */
+
+.container {
+  width: 288.45px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.logo {
+  transform: translate(-50%, 0);
+  align-items: center;
+  height: 150px;
+  width: 288.45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  left: 50%
+}
+
+.logo:hover {
+  height: 160px;
+  width: 106%;
+}
+
+.signedInStatus {
+  display: flex;
+  min-height: 4rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.loading,
+.loaded {
+  position: relative;
+  top: 0;
+  opacity: 0.65;
+  overflow: hidden;
+  border-radius: 0 0 0.6rem 0.6rem;
+  padding: 1rem;
+  margin: 0;
+  transition: all 0.2s ease-in;
+  /* Ease in thing ^^ implement frequently */
+}
+
+.loaded:hover {
+  opacity: 1;
+  color: #FFDB5B;
+}
+
+.loading {
+  top: -2rem;
+  opacity: 0;
+}
+
+.myLink {
+  color: #CC171A;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  opacity: 0.8;
+}
+
+.myLink:active {
+  color: #FFDB5B;
+}
+
+.myLink:hover {
+  color: #FFDB5B;
+  opacity: 1;
+}
+
+.signedInText,
+.notSignedInText {
+  position: absolute;
+  padding-top: 0.8rem;
+  left: 1rem;
+  right: 6.5rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inherit;
+  z-index: 1;
+  line-height: 1.3rem;
+}
+
+.signedInText {
+  padding-top: 0rem;
+  left: 4.6rem;
+}
+
+.avatar {
+  border-radius: 2rem;
+  float: left;
+  height: 2.8rem;
+  width: 2.8rem;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button,
+.buttonPrimary {
+  float: right;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  padding: 0.7rem 0.8rem;
+  position: relative;
+  z-index: 10;
+  background-color: transparent;
+  color: #CC171A;
+  text-decoration: none;
+}
+
+.buttonPrimary {
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.7rem 0.7rem;
+}
+
+.navItems {
+  margin-bottom: 2rem;
+  padding: 0.7rem;
+  list-style: none;
+}
+
+.navItem {
+  display: inline-block;
+  margin-right: 1rem;
+}
