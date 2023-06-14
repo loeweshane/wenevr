@@ -7,16 +7,10 @@ export default function Footer() {
     <footer className={styles.footer}>
       <ul className={styles.navItems}>
         <li className={styles.navItem}>
-          <a href="https://next-auth.js.org" className={styles.myLink}>Documentation</a>
+          <a href="https://next-auth.js.org" className={styles.myLink}>Report a Bug</a>
         </li>
         <li className={styles.navItem}>
-          <a href="https://www.npmjs.com/package/next-auth" className={styles.myLink}>NPM</a>
-        </li>
-        <li className={styles.navItem}>
-          <a href="https://github.com/nextauthjs/next-auth-example" className={styles.myLink}>GitHub</a>
-        </li>
-        <li className={styles.navItem}>
-          <Link href="/policy" className={styles.myLink}>Policy</Link>
+          <Link href="/info" className={styles.myLink}>About Us</Link>
         </li>
         <li className={styles.navItem}>
           <em>next-auth@{packageJSON.dependencies["next-auth"]}</em>
